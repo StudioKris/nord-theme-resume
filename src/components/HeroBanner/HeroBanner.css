@@ -1,0 +1,39 @@
+.hero-banner {
+  @apply grid max-w-screen-xl md:py-8 pt-20 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 lg:mt-16;
+  @apply print:my-2 container;
+}
+.hero-banner h1 {
+  @apply max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl;
+}
+.hero-banner h2 {
+  @apply font-bold text-2xl mb-4;
+}
+.hero-banner p {
+  @apply max-w-2xl mb-6 font-light text-nord7 lg:mb-8 md:text-lg lg:text-xl;
+}
+.hero-banner .primary-button {
+  @apply mr-2 print:hidden;
+}
+.hero-banner .link-box {
+  @apply inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium;
+  @apply text-center text-white rounded-lg hover:ring-1 hover:ring-nord4 focus:ring-1 focus:ring-nord4;
+  @apply font-bold print:hidden;
+}
+.hero-banner .link-box-icon {
+  @apply w-5 h-5 ml-2 -mr-1;
+}
+.hero-banner-left {
+  @apply mr-auto place-self-center lg:col-span-7 print:py-0;
+}
+.hero-banner-right {
+  @apply hidden lg:mt-0 lg:col-span-5 lg:flex;
+}
+.hero-banner .photo {
+  @apply w-72 h-72 rounded-full m-auto;
+  background-image: url("../photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 110px rgba(255, 255, 255, 0),
+    inset 0 0 0 16px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Writings",
+    "skills": [
+      {
+        "name": "Situation Analysing",
+        "level": 1,
+        "details": "Understanding what happens"
+      },
+      {
+        "name": "Summarizing",
+        "level": 2,
+        "details": "Can reduce a complex situation to few words"
+      }
+    ]
+  },
+  {
+    "name": "Survival",
+    "skills": [
+      {
+        "name": "Galactic Hitchhiker",
+        "level": 3,
+        "details": "Thumb up"
+      },
+      {
+        "name": "Babel Fish",
+        "level": 4,
+        "details": "Hear any language"
+      },
+      {
+        "name": "Towel mastering",
+        "level": 5,
+        "details": "drape myself, hand-to-hand combat, hood my head..."
+      }
+    ]
+  }
+]

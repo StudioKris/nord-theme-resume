@@ -1,0 +1,36 @@
+.app {
+  @apply lg:flex lg:flex-col;
+}
+.app > svg {
+  @apply print:hidden;
+}
+.app .split img {
+  @apply print:hidden;
+  @apply w-full h-full;
+  @apply transition duration-300 ease-in-out delay-150;
+}
+.app .hero-banner-holder {
+  @apply lg:justify-between bg-nord1;
+}
+.app .main {
+  @apply lg:justify-between lg:flex lg:space-x-4 container;
+}
+.app .main .main-left {
+  @apply lg:basis-1/4 break-after-page;
+}
+.app .main .main-right {
+  @apply lg:basis-3/4 break-after-page;
+}
+.app .extra {
+  @apply justify-between md:container;
+}
+
+.app .footer {
+  @apply text-center text-nord7 font-light italic;
+}
+.app .footer a {
+  @apply text-nord9;
+}
+.app .footer a:hover {
+  @apply text-nord10;
+}

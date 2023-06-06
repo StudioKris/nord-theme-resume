@@ -1,0 +1,27 @@
+.mission {
+  @apply mb-6;
+}
+.mission .info {
+  @apply mb-2;
+}
+.mission .info span {
+  @apply mr-2;
+}
+.mission .timeline {
+  @apply text-nord13 mr-2 font-bold;
+}
+.mission .info .compangy {
+  @apply font-bold;
+}
+.mission .info .location {
+  @apply text-nord7 font-light;
+}
+.mission p {
+  @apply mb-2;
+}
+.mission h4 {
+  @apply font-extrabold mt-2;
+}
+.mission .tech {
+  @apply text-nord7 font-light;
+}

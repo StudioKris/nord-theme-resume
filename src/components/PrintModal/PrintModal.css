@@ -1,0 +1,56 @@
+.modal {
+  @apply relative z-10 print:hidden;
+}
+.modal-bg {
+  @apply fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity;
+}
+.modal-box {
+  @apply fixed inset-0 z-10 overflow-y-auto;
+}
+.modal-content {
+  @apply flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0;
+}
+.modal-content .panel {
+  @apply relative transform overflow-hidden rounded-lg bg-nord0 text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg;
+}
+
+.modal-content .body {
+  @apply bg-nord0 px-4 pb-4 pt-5 sm:p-6 sm:pb-4;
+}
+.modal-content .body .holder {
+  @apply sm:flex sm:items-start;
+}
+.modal-content .body .holder .icon-placeholder {
+  @apply mx-auto flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-nord1 sm:mx-0 sm:h-40 sm:w-40;
+}
+.modal-content .body .holder .icon-placeholder .icon {
+  @apply h-7 w-7 text-nord14 sm:h-28 sm:w-28;
+}
+.modal-content .body .holder .text-placeholder {
+  @apply mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left;
+}
+.modal-content .body .holder .text-placeholder .title {
+  @apply text-base font-semibold leading-6 text-nord5;
+}
+.modal-content .body .holder .text-placeholder .notice {
+  @apply mt-2;
+}
+.modal-content .body .holder .text-placeholder .notice p {
+  @apply text-sm text-nord7;
+}
+.modal-content .body .holder .text-placeholder .notice a {
+  @apply text-sm text-nord10 font-bold;
+}
+
+.modal-content .bottom-bar {
+  @apply bg-nord1 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6;
+}
+.modal-content .bottom-bar .button {
+  @apply inline-flex w-full justify-center rounded-md px-3 py-2 text-sm font-semibold shadow-sm sm:w-auto;
+}
+.modal-content .bottom-bar .validate-button {
+  @apply bg-nord8 hover:bg-nord9 text-nord1 sm:ml-3;
+}
+.modal-content .bottom-bar .cancel-button {
+  @apply mt-3 bg-nord1 text-nord5 ring-1 ring-inset ring-nord3 hover:ring-nord9 hover:bg-nord2 sm:mt-0;
+}

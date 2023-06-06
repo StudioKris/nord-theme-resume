@@ -1,0 +1,9 @@
+.competencies {
+  @apply mb-10 px-8 sm:px-0 break-after-page;
+}
+.competencies > div {
+  @apply grid grid-cols-1 gap-4 lg:grid-cols-2 print:grid-cols-2;
+}
+.competencies-group {
+  @apply py-2;
+}

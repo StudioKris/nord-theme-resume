@@ -1,0 +1,12 @@
+.left-box {
+  @apply bg-nord1 shadow mb-4 print:shadow-none;
+}
+.left-box h2 {
+  @apply text-lg font-bold bg-nord2 px-2 py-1 mb-1 print:px-0;
+}
+.left-box div {
+  @apply px-3 pb-1 text-nord7 font-light;
+}
+.left-box div b {
+  @apply font-bold;
+}

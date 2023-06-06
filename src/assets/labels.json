@@ -1,0 +1,38 @@
+{
+  "heroBanner": {
+    "contactMe": "Contact me!",
+    "more": "More"
+  },
+  "aboutMe": "About Me",
+  "languages": "Languages",
+  "education": "Education",
+  "toFoolAway": "To fool away",
+  "experience": {
+    "label": "Experience",
+    "missions": "Missions"
+  },
+  "competencies": "Competencies",
+  "skills": {
+    "label": "Skills",
+    "column": {
+      "name": "Name",
+      "level": "Level",
+      "details": "Details"
+    },
+    "legend": "Knowledge levels",
+    "levels": {
+      "lvl1": "Competent",
+      "lvl2": "Beginner",
+      "lvl3": "Advanced",
+      "lvl4": "Proficient",
+      "lvl5": "Expert"
+    }
+  },
+  "printFeature": {
+    "printBtn": "Print!",
+    "PDFBtn": "PDF!",
+    "cancelBtn": "Cancel",
+    "popupTitle": "Save the world!",
+    "popupBody": "<p>Why not save this page in PDF format before printing?</p><p>Your browser probably allows you to print this page in PDF format. Look <a href=\"https://www.digitaltrends.com/computing/how-to-save-a-webpage-as-a-pdf/\" target=\"_blank\">here</a> to find out how.</p>"
+  }
+}

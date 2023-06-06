@@ -1,0 +1,70 @@
+{
+  "pdfUrl": "./cv.pdf",
+  "me": {
+    "firstname": "Jone",
+    "lastname": "Dœuf",
+    "contact": "https://linkedin.com/in/42",
+    "spotlight": "Experienced Galactic Hitchhiker.",
+    "occupation": "Researcher"
+  },
+  "about": {
+    "details": "Lorem ipsum dolor sit amet, <b>consectetur</b> adipiscing elit. Ut in pharetra mauris. Etiam a tortor ut quam eleifend pretium. Aliquam mauris lorem, rutrum sit amet odio vitae, tristique imperdiet urna. Integer tellus leo, faucibus vel ullamcorper quis, lobortis id neque. Vivamus vel lacinia justo, non fermentum turpis. Cras semper nibh eu urna ullamcorper, vitae volutpat ante viverra.",
+    "mantra": "Never Forget Your Towel!"
+  },
+  "languages": [
+    {
+      "code": "gb",
+      "name": "English",
+      "level": "Professional"
+    }
+  ],
+  "education": [
+    {
+      "location": "Betelgeuse V University",
+      "major": "Professional degree in writing jokes",
+      "years": "2002-2006"
+    }
+  ],
+  "hobbies": [
+    "Clean my Towel",
+    "Vogon Poetry"
+  ],
+  "companies": {
+    "H2G2": {
+      "name": "Megadodo Publications",
+      "location": "Ursa Minor Beta"
+    }
+  },
+  "experiences": [
+    {
+      "name": "Researcher",
+      "compagny": "H2G2",
+      "years": "2007-now",
+      "missionShort": "Writing articles for the Hitchhiker's Guide to the Galaxy",
+      "missionLong": [
+        "Writing articles for the Hitchhiker's Guide to the Galaxy",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in pharetra mauris. Etiam a tortor ut quam eleifend pretium. Aliquam mauris lorem, rutrum sit amet odio vitae, tristique imperdiet urna."
+      ],
+      "missions": [
+        "Travel in the Galaxy",
+        "Write Articles",
+        "Don't Panic"
+      ],
+      "additionals": [
+        {
+          "label": "Trainings",
+          "details": [
+            "Babel Fish implantation"
+          ]
+        },
+        {
+          "label": "Ability",
+          "details": [
+            "Towel Jujutsu",
+            "Thumb up"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+.skills {
+  @apply mb-10;
+}
+.skills h2 {
+  @apply px-8 sm:px-0;
+}
+.skills legend {
+  @apply text-nord7 font-light italic;
+}
+table {
+  @apply border-collapse table-auto w-full text-sm;
+}
+th {
+  @apply border-b border-nord11 font-medium p-4 pt-0 pb-3 text-left text-nord13;
+}
+th:first-of-type {
+  @apply sm:pl-8;
+}
+th:last-of-type {
+  @apply sm:pr-8;
+}
+tbody {
+  @apply bg-nord1;
+}
+td:first-of-type {
+  @apply text-nord5 sm:pl-8;
+}
+td {
+  @apply border-b border-nord9 py-2 px-4 text-nord7;
+}
+td:last-of-type {
+  @apply sm:pr-8 font-light;
+}
+.skill-group-head {
+  @apply bg-nord3;
+}
+.skill-group-head td {
+  @apply bg-nord3 font-extrabold;
+}

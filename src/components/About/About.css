@@ -1,0 +1,21 @@
+.about {
+  @apply container mb-14;
+}
+.about h2 {
+  @apply text-3xl;
+}
+.about article {
+  @apply grid mx-auto gap-8 md:grid-cols-10;
+}
+.about .about-left {
+  @apply mr-auto place-self-center md:col-span-7;
+}
+.about .about-right {
+  @apply md:mt-0 md:col-span-3 md:flex justify-center self-center text-center;
+}
+.about .icon {
+  @apply text-4xl inline-block mr-2;
+}
+.about blockquote {
+  @apply text-2xl italic font-semibold px-4 py-4 bg-nord1 rounded-lg;
+}

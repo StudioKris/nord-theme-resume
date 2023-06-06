@@ -1,0 +1,6 @@
+.fab {
+  @apply fixed top-3 right-3 p-0 w-24 h-12;
+}
+.fab svg {
+  @apply w-9 h-9;
+}

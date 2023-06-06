@@ -1,0 +1,41 @@
+body {
+  @apply bg-nord0 text-nord5;
+}
+
+b {
+  @apply text-nord9;
+
+  @apply font-bold;
+}
+
+section h2 {
+  @apply text-2xl font-bold mb-2;
+}
+.h3-end-with-line {
+  overflow: hidden;
+  @apply text-lg font-bold;
+}
+.h3-end-with-line:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-bottom: 1px solid;
+  @apply border-b-nord13;
+}
+
+.list-with-dot {
+  @apply list-disc pl-6;
+}
+
+.primary-button {
+  @apply inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center;
+  @apply bg-nord8 hover:bg-nord9 text-nord1;
+  @apply rounded-lg font-bold;
+  @apply transition ease-in duration-200 focus:outline-none print:hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
